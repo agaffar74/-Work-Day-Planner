@@ -1,0 +1,115 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+  }
+  
+  main {
+    margin-bottom: 80px;
+  }
+
+  .jumbotron {
+    text-align: center;
+    background-color:#373c37;
+    color: rgb(250, 248, 248);
+    border-radius: 0;
+    border-bottom: 10px solid black;
+  }
+  
+  
+  header .btn {
+    background-color: #9f501b;
+    box-shadow: 5px 5px 10px #d2d7d2;
+  }
+  
+  textarea {
+    background: transparent;
+    border: none;
+    resize: none;
+    color: #080808;
+    border-left: 1px solid black;
+    padding: 10px;
+  }
+  
+  textarea::placeholder {
+    color:#b3b3ad
+  }
+  
+  .description {
+    white-space: pre-wrap;
+  }
+  
+  .time-block {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+  
+  .row {
+    white-space: pre-wrap;
+    height: 80px;
+    border-top: 1px solid white;
+  }
+  
+  .hour {
+    background-color: #ffffff;
+    color: #000000;
+    border-top: 1px dashed #000000;
+    border-bottom: 1px dashed #000000;
+    border-left: 1px dashed #000000;
+  }
+  
+  .past {
+    background-color: #d3d3d3;
+    color: rgb(255, 255, 255);
+  }
+  
+  .present {
+    background-color: #9f501b;
+    color: rgb(255, 255, 255);
+  }
+  
+  .future {
+    background-color: #5f8f40;
+    color: rgb(255, 255, 255);
+  }
+  
+  .saveBtn {
+    border-left: 1px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #06AED5;
+    color: white;
+  }
+  
+  .saveBtn i:hover {
+    font-size: 25px;
+    transition: all .3s ease-in-out;
+  }
+  
+  .alert-animation {
+    animation-name: show-and-hide;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-duration: 4.00s;
+  }
+  
+  footer {
+    background-color: #3e403e;
+    border-top: solid black 6px;
+    text-align: center;  
+  }
+
+ @keyframes show-and-hide {
+    0% {
+      top: -80px;
+    }
+    15% {
+      top: 0;
+    }
+    85% {
+      top: 0;
+    }
+    100% {
+      top: -80px;
+    }
+  }
