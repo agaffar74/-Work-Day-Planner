@@ -1,12 +1,13 @@
 $(document).ready(function () {
 
     //Grab current day and date from dayjs and put in header
-    $('#currentDay').text(dayjs().format('dddd, DD MMMM YYYY'));
+    var currentTimeDisplay = $("#currentDay");
+    currentTimeDisplay.text(moment().format('llll'));
 
-    var currentHour = dayjs().hour();
+    var currentHour = moment().hour();
     console.log(currentHour);
 
-    $('.row textarea').attr("placeholder", "Enter your notes here...").each(function (i) {
+    $('.row textarea').attr("placeholder", "Enter your tasks here...").each(function (i) {
         //The requirement is to show the workday, 9am - 5pm, so I offset the loop by 9 hours
         var hour = i + 9;
 
@@ -28,8 +29,14 @@ $(document).ready(function () {
         $('#' + hour).val(hourText);
     }
 
+    var confirmationMsg = $("#confirmation-msg");
+
     // Attach "ON CLICK" event to all the save buttons
     $(".saveBtn").on("click", function () {
+        event.preventDefault();
+        confirmationMsg.html("Tasks Added <code> at the planner </code> ✅");
+        confirmationMsg.attr("style", "text-align: center; font-size: 14px");
+        
         //Grab the text from the textarea that is the sibling of the clicked save button
         var timeBlock = $(this).siblings("textarea");
         var hourText = timeBlock.val();
