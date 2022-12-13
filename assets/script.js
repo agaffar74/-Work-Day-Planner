@@ -31,10 +31,10 @@ $(document).ready(function () {
 
     var confirmationMsg = $("#confirmation-msg");
 
-    // Attach "ON CLICK" event to all the save buttons
+    // Attach "ON CLICK" event to all the save buttons and popup menu areas with confirmation
     $(".saveBtn").on("click", function () {
         event.preventDefault();
-        confirmationMsg.html("Tasks Added <code> at the planner </code> ✅");
+        confirmationMsg.html("Tasks Added" + this.hourText + "✅");
         confirmationMsg.attr("style", "text-align: center; font-size: 14px");
         
         //Grab the text from the textarea that is the sibling of the clicked save button
