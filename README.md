@@ -12,6 +12,7 @@ Created a simple calendar application for workday hours (between 9 AM and 5 PM) 
 
 ## The App Demo
 
+![image](https://user-images.githubusercontent.com/115975620/207448424-3909e1b4-084f-4793-95a0-b7f203f93837.png)
 
 
 
