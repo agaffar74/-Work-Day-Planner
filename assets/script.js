@@ -44,7 +44,7 @@ $(document).ready(function () {
 
         //Popup menu appears with confirmation
         event.preventDefault();
-        confirmationMsg.html("Tasks Added to <code>the planner<code/> ✅");
+        confirmationMsg.html("Tasks Added to <code>LocalStorage<code/> ✅");
         confirmationMsg.attr("style", "text-align: center; font-size: 14px");
     });
 
