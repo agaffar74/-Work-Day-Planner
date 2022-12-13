@@ -10,7 +10,10 @@ Created a simple calendar application for workday hours (between 9 AM and 5 PM) 
 * I WANT to add important events to a daily planner
 * SO THAT I can manage my time effectively
 
-## Demo
+## The App Demo
+
+
+
 
 
 ## Technologies Used
