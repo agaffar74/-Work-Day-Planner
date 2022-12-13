@@ -28,3 +28,16 @@ User can install this app by clicking the link provided at the top right corner 
 User to click on the text area within the time block to enter their tasks
 Finally the save button to press after entering the task to save it in local storage. 
 User can amend or delete tasks too
+
+
+## Deployment
+* Application GitHub URL submitted. GitHub repository contains all files including application codes.
+
+    * The site is live at [GitHub:] (https://agaffar74.github.io/Work-Day-Planner/)
+
+    * The Site is also live [URL:] (https://agaffar74.github.io/Work-Day-Planner/index.html)
+
+## Contact If you have any questions, please contact me at:
+* Github Profile: agaffar74
+* Email: a_gaffar74@yahoo.com
+* LinkedIn: abdul-gaffar74
