@@ -11,7 +11,7 @@ body {
   .jumbotron {
     text-align: center;
     background-color:#373c37;
-    color: rgb(250, 248, 248);
+    color: rgb(255, 253, 253);
     border-radius: 0;
     border-bottom: 10px solid rgb(121, 120, 120);
   }
@@ -32,7 +32,7 @@ body {
   }
   
   textarea::placeholder {
-    color:#b3b3ad
+    color:#cecec6
   }
   
   .description {
@@ -60,17 +60,17 @@ body {
   
   .past {
     background-color: grey;
-    color: rgb(255, 255, 255);
+    color: black;
   }
   
   .present {
     background-color: orangered;
-    color: rgb(255, 255, 255);
+    color: black;
   }
   
   .future {
     background-color: green;
-    color: rgb(255, 255, 255);
+    color: black;
   }
   
   .saveBtn {
@@ -97,19 +97,4 @@ body {
     background-color: #3e403e;
     border-top: solid black 6px;
     text-align: center;  
-  }
-
- @keyframes show-and-hide {
-    0% {
-      top: -80px;
-    }
-    15% {
-      top: 0;
-    }
-    85% {
-      top: 0;
-    }
-    100% {
-      top: -80px;
-    }
   }
