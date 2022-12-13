@@ -59,17 +59,17 @@ body {
   }
   
   .past {
-    background-color: #d3d3d3;
+    background-color: #5f5d5d;
     color: rgb(255, 255, 255);
   }
   
   .present {
-    background-color: #9f501b;
+    background-color: #aa5014;
     color: rgb(255, 255, 255);
   }
   
   .future {
-    background-color: #5f8f40;
+    background-color: #3e6325;
     color: rgb(255, 255, 255);
   }
   
