@@ -1,8 +1,8 @@
 $(document).ready(function () {
 
     //Grab current day and date from dayjs and put in header
-    var currentTimeDisplay = $("#currentDay");
-    currentTimeDisplay.text(moment().format('llll'));
+    var currentDateTimeDisplay = $("#currentDay");
+    currentDateTimeDisplay.text(moment().format('llll'));
 
     var currentHour = moment().hour();
     console.log(currentHour);
