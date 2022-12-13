@@ -36,7 +36,7 @@ User can amend or delete tasks too
 ## Deployment
 * Application GitHub URL submitted. GitHub repository contains all files including application codes.
 
-    * The site is live at [GitHub:] (https://agaffar74.github.io/Work-Day-Planner/)
+    * The site is live at [GitHub:] (https://github.com/agaffar74/Work-Day-Planner)
 
     * The Site is also live [URL:] (https://agaffar74.github.io/Work-Day-Planner/index.html)
 
