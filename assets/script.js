@@ -33,10 +33,7 @@ $(document).ready(function () {
 
     // Attach "ON CLICK" event to all the save buttons and popup menu areas with confirmation
     $(".saveBtn").on("click", function () {
-        event.preventDefault();
-        confirmationMsg.html("Tasks Added to <code>the planner<code/> ✅");
-        confirmationMsg.attr("style", "text-align: center; font-size: 14px");
-        
+               
         //Grab the text from the textarea that is the sibling of the clicked save button
         var timeBlock = $(this).siblings("textarea");
         var hourText = timeBlock.val();
@@ -44,9 +41,14 @@ $(document).ready(function () {
         //Grab the id from that same textarea
         var hour = timeBlock.attr('id');
         localStorage.setItem(hour, hourText);
+
+        //Popup menu appears with confirmation
+        event.preventDefault();
+        confirmationMsg.html("Tasks Added to <code>the planner<code/> ✅");
+        confirmationMsg.attr("style", "text-align: center; font-size: 14px");
     });
 
-    //Reset button to clear all time blocks if desired (not automatically cleared in case of recurring events)
+    //Reset button to clear all time blocks if wanted (not automatically cleared in case of recurring events)
     $('#reset').on("click", function () {
         for (var i = 9; i < 18; i++) {
             localStorage.removeItem("hour" + i);
