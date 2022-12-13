@@ -6,8 +6,16 @@ Created a simple calendar application for workday hours (between 9 AM and 5 PM) 
 
 
 ## User Story
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
+* AS AN employee with a busy schedule
+* I WANT to add important events to a daily planner
+* SO THAT I can manage my time effectively
 
-## Built With
+## Technologies Used
+* HTML
+* CSS
+* JavaScript
+* BootStrap
+* jQuery
+* moments.js
+* Fontawesome
+* Google Fonts
